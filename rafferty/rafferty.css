@@ -11,17 +11,16 @@ h1 {
 	text-transform: uppercase;
 	font-family: futura-pt; 
 	-webkit-transform: matrix(1, -0.10, 0, 1, 0, 0); 
-	padding: 0;
 	}
 	
 h1 span {
 	display: block;
 	font-size: 180px;  
-	line-height: 170px;
+	line-height: 160px;
 	letter-spacing: 5px;
-	border-top: 6px solid #111; 
-	border-bottom: 6px solid #111; 		
-	padding: 0;
+	border: 6px solid #111; 
+/*	border-bottom: 6px solid #111; 		*/
+	padding: 10px;
 	margin: 0;
 	clear: both;
 	z-index:1;
@@ -33,20 +32,20 @@ h1 b {
 	float: left;
 	width: auto;
 	display: inline-block;
-	padding: 0 15px 0 10px;
+	padding: 10px 15px 10px 0;
 	z-index: 999;
 	font-size: 36px;
 	line-height: 36px;
 	display: block;
 	text-align: left;
-	margin-bottom: -13px;
+	margin: 0 0 -22px -2px;
 	letter-spacing: 3px;	
 	word-spacing: 10px;		
 }
 
 h1 b:last-child {
-	padding: 0 10px 0 15px;	
-	margin-top: -13px;
+	padding: 10px 0 10px 15px;	
+	margin: -22px -2px 0 0;
 	float: right;
 	text-align: right;
 }
