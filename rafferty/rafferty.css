@@ -44,6 +44,8 @@ h1 b {
 }
 
 h1 b:last-child {
+	z-index: 999;
+	position: relative;
 	padding: 10px 0 10px 15px;	
 	margin: -22px -2px 0 0;
 	float: right;
