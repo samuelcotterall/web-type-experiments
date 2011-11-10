@@ -1,0 +1,26 @@
+body {margin: auto; text-align: center; padding: 34px; color: #111;}
+
+a:visited,
+a {color: #111; text-decoration: none;}
+a:hover {color: #333;}
+
+
+h1 { 	
+	color: #8C5471;
+	font-size:200px;
+	line-height: .5;
+	text-align: center;
+	display: inline-block;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-family: bistro-script-web;
+	-webkit-transform: matrix(1, -0.30, 0, 1, 0, 0); 
+	text-shadow: rgba(0,0,0,.2) 0px -0px 20px;
+	}
+
+h1 span {display: block; float: left;}
+h1 .char1 {text-transform: uppercase; margin-top: 16px;}
+
+h1 .char5 {/*text-transform: uppercase; */margin-left: 97px; clear: both; display: inline-block;}
+h1 .char8:after {content:'!'}
+
